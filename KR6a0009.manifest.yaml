@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6a0009/v1
 canonical_location: https://kanripo.org/bkk/KR6a0009/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 人仙經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0009_000.yaml, hash: 'sha256:f6d66281f76cd6593e3a88c9aec259e225ec43f3ab6b7234a6f378b65579c118'}
-  - {seq: 1, filename: KR6a0009_001.yaml, hash: 'sha256:e90768c4073ef5395fecf0d30053cb5908a23670709fb08fd4b66e5c41a09569'}
+  - {seq: 1, filename: KR6a0009_001.yaml, hash: 'sha256:89e8f04600eccdc1be1d2ee43fc100b3f365f5c72c2925f796c824c7596d478a'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6a0009_000.markers.yaml, hash: 'sha256:69f64c0bde2959faacb60256b82d5a97bda98e60d02633b5e75f0538ae129ec7'}
-  - {seq: 1, role: markers, filename: assets/KR6a0009_001.markers.yaml, hash: 'sha256:a6245424f49de61188bf60376029c56e5abecac4bf33618e38bba6febf7e9d16'}
+  - {seq: 1, role: markers, filename: assets/KR6a0009_001.markers.yaml, hash: 'sha256:13ac7861ab6e83203e82fee27d8b38063eba3537e69801f88efd442803c8f6e9'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 佛說人仙經
   type: juan
   level: 1
-hash: sha256:ffa9715075b86a9d1947514c012a0d37dc0e9de6e070aee23f3e6dcb036df5f3
+hash: sha256:b1564480aa9b45ba862e1805f2283c759f5c3032c0f8089354b369699fe37087
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
